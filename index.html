@@ -1,165 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>A112510322</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-	<!-- css文件載入 -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>ANIME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    </head>
 <body>
-<!-- 頁首/開始 -->
-<header class="header1">
+    
+    
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/50-px-stare-icon-11553486728obv2-removebg-preview.png" alt="Bootstrap">
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+             <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">關於我們</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於我們
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">anime</a></li>
+                    <li><a class="dropdown-item" href="#">評價與心得</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">其他</a></li>
+                </ul>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">最新消息</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOT ANIME</a>
+            </li>
+        </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">搜尋</button>
+            </form>
+    </div>
+    </div>
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images/slide.jpg" class="d-block w-100" alt="restaurant1">
+            </div>
+        <div class="carousel-item">
+            <img src="images/slide1.jpg" class="d-block w-100" alt="restaurant2">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide2.jpg" class="d-block w-100" alt="restaurant3">
+        </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+    
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                    <div class="d-flex flex-nowrap justify-content-center mx-2 mt-4"> 
+                        <div class="flex-shrink-0"> 
+                            <img src="images/aboutus.jpg" width="300px" height="200px" class="rounded-circle"> 
+                        </div> 
+                        <div class="flex-grow-1 px-3"> 
+                          日本的動畫業界人士，特別是在正式場合或公文時，也會將此稱呼為「Animation（アニメーション）」，有時候覺得太長了很麻煩，就會直接以「Anime（アニメ）」帶過去。因此Anime除了是Animation的簡稱以外，對於日本動畫從業人員來說沒有其它特殊的含義。但是在西方人或華人的動畫迷，他們普遍的認知為「Anime（アニメ）」是專指日本的日式動畫。
+                        </div> 
+                    </div>                  
+            </div>
+            <div class="col-lg-6">
+                <h2>最新消息</h2>
+                    <p>2024年1月新番</p>
+                    <p>歡迎來到實力至上主義的教室 3rd season</p>
+                    <p>我獨自升級</p>
+                    <p>最強肉盾的迷宮攻略</p>
+            </div>
+        
+        
+        </div>
+    </section>
+    
+    
+    
+    
+    <section class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-6 text-center text-danger">
+						<h2>最新消息</h2>
+					</div>
+				</div>
+			</div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anime1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-success text-center">巴哈姆特動畫瘋</h3>
+                        <p class="card-text">動畫瘋是由巴哈姆特所推出，正版授權的免費動畫平台，提供與日本同步的當季新番動畫，並含有高達上萬集的過往名作，供動畫迷們自由選擇！</p>
+                        <a Target="_blank" href="https://ani.gamer.com.tw/" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anime2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ani-One</h5>
+                        <p class="card-text">羚邦集團旗下動畫品牌提供與日本同步跟播的新番，及廣為人知的經典舊作，更貼地的推動中文及華語地區的動漫文化</p>
+                        <a Target="_blank" href="https://youtu.be/IQDPP0pL6mw" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/anime3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Muse木棉花</h5>
+                        <p class="card-text">MUSE木棉花為臺灣的全方位動畫代理公司，第一手當季多部新番動畫卡通的動態趨勢、豐富多元的周邊商品，商品多達數千品項，提供享超優惠及品質保障.</p>
+                        <a Target="_blank" href="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    
 
-</header> 
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/Appartment_Stube2-2000px-%E2%80%93-600px.jpeg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src='images/Appartment_Stube-2000px-%E2%80%93-600px.jpeg' class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/Doppelbett-2000px-%E2%80%93-600px.jpeg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+    
+    <footer class="footer-07">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center">
+						<h2 class="footer-heading"><a href="#" class="logo">Zoki</a></h2>
+						<p class="menu">
+							<a href="#">Home</a>
+							<a href="#">Agent</a>
+							<a href="#">About</a>
+							<a href="#">Listing</a>
+							<a href="#">Blog</a>
+							<a href="#">Contact</a>
+						</p>
+						<ul class="ftco-footer-social p-0">
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+            </ul>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Zoki</a>
+					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
 
-<!-- 頁首/結束 -->
-<!-- 特色/開始 -->
-<section class="container">
-	<div class="row">
-		<div class="col-lg-4 text-center">
-			<h2 class="text-danger">教學影音</h2>
-			<p>透過影音課程，來了解軟體的核心概念以及入門，並跟著範例練習以了解其中之應用方式</p>
-		</div>
-		<div class="col-lg-4 text-center">
-			<h2 class="habc">良性互動</h2>
-			<p>學習過程中，若您遇到任何問題或是你有任何想法都歡迎提出，我們會盡量的協助問題的解決</p>
-		</div>
-		<div class="col-lg-4 text-center">
-			<h2>趨勢分享</h2>
-			<p>分享目前時下所流行之趨勢，讓各位可隨時掌握新趨勢的發展</p>
-		</div>
-	</div>
-</section>
-<!-- 特色/結束 -->
-<!-- 主標語/開始 -->
-<section class="d-flex justify-content-center bg-danger slogan">
-	<h3 class="align-self-center text-white">讓學習成為一種習慣</h3>
-</section >
-<!-- 主標語/結束 -->
-<!-- 推薦課程/開始 -->
-<section class="container">
-	<div class="row">
-		<!-- 標題/開始 -->
-		<div class="col-lg-12">
-			<h1 class="def123">推薦課程</h1>
-		</div>
-		<!-- 標題/結束 -->
-		<!-- 課程1/開始 -->
-		<div class="col-lg-4">
-			<div>
-				<div>
-					<img src="images/unity.jpg" alt="Unity" class="img-fluid d-block m-auto w-75">
-				</div>
-				<div class="mt-2 mb-2">
-					<h3 class="text-primary">Unity 5</h3>
-				</div>
-				<div class="text-muted mt-2 md-2">最新的Unity公開課程，讓你一步一步做出自己的心中理想的遊戲</div>
-				<div class="md-2 mt-2">
-					<span class="text-warning">講師：123LearnGo</span>
-				</div>
-				<div class="md-2 mt-2">
-					<span class="text-info">影音課程時數：4 小時</span>
-				</div>
-				<div>
-					<h4 class="text-danger ">
-                        <small class="text-muted"><s>原價 NT$ 1600</s></small> NT$ 1200
-                    </h4>
-				</div>
-				<div class="md-3 mt-3">
-					<button type="button" class="btn btn-danger btn-lg btn-block">付款上課去</button>
-				</div>
-			</div>
-		</div>
-		<!-- 課程1/結束 -->
-		<!-- 課程2/開始 -->
-		<div class="col-lg-4">
-			<div>
-				<div>
-					<img src="images/gamesalad.jpg" alt="GameSalad" class="img-fluid d-block m-auto w-75">
-				</div>
-				<div class="mt-2 mb-2">
-					<h3 class="text-primary">GameSalad 2D遊戲製作</h3>
-				</div>
-				<div class="text-muted mt-2 md-2">視覺化操作，2D遊戲快速開發，不會寫程式的你一樣可以寫遊戲</div>
-				<div class="mt-2 md-2">
-					<span class="text-warning">講師：123LearnGo</span>
-				</div>
-				<div class="mt-2 md-2">
-					<span class="text-info">影音課程時數：8 小時</span>
-				</div>
-				<div>
-					<h4 class="text-danger ">
-                        <small class="text-muted"><s>原價 NT$ 3200</s></small> NT$ 1600
-                    </h4>
-				</div>
-				<div class="md-3 mt-3">
-					<button type="button" class="btn btn-danger btn-lg btn-block">付款上課去</button>
-				</div>
-			</div>
-		</div>
-		<!-- 課程2/結束 -->
-		<!-- 課程3/開始 -->
-		<div class="col-lg-4">
-			<div>
-				<div>
-					<img src="images/gwd.jpg" alt="Google Web Design" class="img-fluid d-block m-auto w-75">
-				</div>
-				<div class="mt-2 mb-2">
-					<h3 class="text-primary">Google Web Design</h3>
-				</div>
-				<div class="text-muted mt-2 md-2">用於建立 HTML5 廣告動畫。透過時間軸，將各種物件和事件以動畫方式呈現</div>
-				<div class="mt-2 md-2">
-					<span class="text-warning">講師：123LearnGo</span>
-				</div>
-				<div class="mt-2 md-2">
-					<span class="text-info">影音課程時數：8 小時</span>
-				</div>
-				<div>
-					<h4 class="text-danger ">
-                        <small class="text-muted"><s>原價 NT$ 3200</s></small> NT$ 1600
-                    </h4>
-				</div>
-				<div class="md-3 mt-3">
-					<button type="button" class="btn btn-danger btn-lg btn-block">付款上課去</button>
-				</div>
-			</div>
-		</div>
-		<!-- 課程3/結束 -->
-	</div>
-</section>
-<!-- 推薦課程/結束 -->
-<!-- 頁腳/開始 -->
-<footer>
-	<p>© 2017 123LearnGo</p>
-</footer>
-<!-- 頁腳/結束 -->
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
 </html>
